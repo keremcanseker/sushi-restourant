@@ -290,13 +290,14 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
   .trending__image {
     width: 100%;
     background-size: cover;
+    background-position: center;
   }
 
   .trending__discover {
@@ -310,8 +311,9 @@ a {
 
 @media screen and (max-width: 550px) {
   .trending__image img {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
   }
 
   .trending__content {
