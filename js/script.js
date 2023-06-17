@@ -14,6 +14,16 @@ AOS.init({
     offset: 100,
 });
 
+const menu = document.querySelector(".header__menu-mobile");
+const mobileNav = document.querySelector(" .header__menu-mobile-nav")
+menu.addEventListener("click", toggleMenu);
+
+function toggleMenu(){
+    mobileNav.classList.toggle("active");
+}
+
+
+  
 // const trendingSushis = [
 //     'Make Sushi',
 //     'Nigiri Sushi',
